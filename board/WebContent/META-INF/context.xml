@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/myOracle"
+			  type="javax.sql.DataSource"
+			  auth="Container"
+			  driverClassName="oracle.jdbc.driver.OracleDriver"
+			  url="jdbc:oracle:thin:@localhost:1521:system"
+			  username="bhs"
+			  password="1234"
+		  	  initialSize="50"
+			  maxTotal="20"
+			  maxIdle="10"
+			  maxWaitMillis="10000"/>
+</Context>
